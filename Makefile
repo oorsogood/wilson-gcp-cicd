@@ -12,4 +12,4 @@ test-local:
 
 # Trigger cloudbuild: 
 cloud-build:
-	cd .. && gcloud builds submit --config chap2/cloudbuild.yaml
+	cgcloud builds submit --config cloudbuild.yaml
